@@ -50,7 +50,7 @@ export const actions = {
       await axios
         .post(
 //HS          "https://ecommerce-netlify.netlify.com/.netlify/functions/index",
-          "https://5d5ef98b2057717ee90caddc--thirsty-mcclintock-b1b6c6.netlify.com/.netlify/functions/index",
+          "https://thirsty-mcclintock-b1b6c6.netlify.com/.netlify/functions/index",
           {
             stripeEmail: payload.stripeEmail,
             stripeAmt: Math.floor(getters.cartTotal * 100), //it expects the price in cents, as an integer
